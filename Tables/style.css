@@ -1,0 +1,46 @@
+table{
+   border: 5px double black; 
+   width: 65%;
+   border-collapse: collapse;
+
+   /* border-spacing: 10px; */
+   
+
+   
+}
+td,th{
+    border: 2px dotted blue;
+    font-size: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+
+}
+thead{
+    color: red;
+
+}
+tbody{
+    color: yellow;
+}
+tfoot{
+    color: olive;
+
+}
+.leadersResults{
+    color: green;
+}
+tr:nth-child(even){
+    background-color: blueviolet;
+
+}
+tr:nth-child(odd){
+    background-color:hotpink;
+
+}
+td:hover{
+    background-color: blue;
+}
+th:hover{
+    background-color:yellowgreen;
+}
